@@ -1,0 +1,31 @@
+.option svg {
+  height: 1.3em;
+  margin-right: 0.9em;
+}
+
+.option {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+}
+
+.option span {
+  display: flex;
+  align-items: center;
+  height: 2.4em;
+  width: fit-content;
+  padding: 0 0.7em;
+}
+
+.option:hover span {
+  color: #1da1f2;
+  border-radius: 1.5em;
+  background: #192734;
+}
+
+.option.selected {
+  color: #1da1f2;
+}

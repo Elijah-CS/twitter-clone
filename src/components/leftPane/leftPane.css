@@ -1,0 +1,49 @@
+.left-pane {
+  background: #15202b;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.left-pane .container {
+  position: fixed;
+}
+
+.left-pane header svg {
+  height: 1.9em;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  margin-left: 4em;
+}
+
+.left-pane nav {
+  padding-left: 3.3em;
+}
+
+.left-pane footer {
+  position: fixed;
+  bottom: 1.1em;
+}
+
+.left-pane footer div.account {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  margin-left: 3.5em;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 0.5em 1.1em;
+}
+
+.left-pane footer div.account:hover {
+  border-radius: 1.5em;
+  background: #1d2f40;
+}
+
+.left-pane footer div.account .name {
+  font-weight: 700;
+}
+
+.left-pane footer div.account .username {
+  color: #8899a6;
+}
