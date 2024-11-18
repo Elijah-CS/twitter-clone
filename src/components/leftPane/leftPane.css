@@ -1,11 +1,10 @@
 .left-pane {
-  background: #15202b;
+  background: var(--bg-color);
   color: #fff;
   min-height: 100vh;
-}
 
-.left-pane .container {
-  position: fixed;
+  position: sticky;
+  top: 0;
 }
 
 .left-pane header svg {

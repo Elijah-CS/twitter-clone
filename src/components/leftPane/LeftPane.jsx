@@ -5,7 +5,6 @@ import './leftPane.css'
 const LeftPane = () => {
   return (
     <div className="left-pane">
-      <div className="container">
         <header>{twitter}</header>
 
         <nav>
@@ -25,7 +24,6 @@ const LeftPane = () => {
             </div>
           </div>
         </footer>
-      </div>
     </div>
   )
 }

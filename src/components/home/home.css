@@ -2,3 +2,9 @@
   background: #171717;
   color: #fff;
 }
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+}

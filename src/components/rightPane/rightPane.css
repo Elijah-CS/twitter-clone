@@ -1,4 +1,7 @@
 .right-pane {
-  background: #15202b;
+  background: var(--bg-color);
   color: #fff;
+
+  position: sticky;
+  top: 0;
 }
